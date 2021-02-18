@@ -1,0 +1,26 @@
+body{
+    font: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 36, 83);
+    color:#ffffff;}
+     
+    .container{
+        width: 720px;
+        margin: 50px;
+        height: 550px;
+        box-shadow:darkslategrey;
+        justify-content: center;
+        background-color:aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+p {
+    font: outline;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    choices
+    timer
+    counter
