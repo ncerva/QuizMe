@@ -1,0 +1,39 @@
+body{
+    font: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color:#000000;}
+     
+  
+p {
+    font: outline;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 6px solid green;
+    padding: 10px;
+  }
+
+  #timer{
+      margin: 50px;
+      max-width: 50px;
+      color: rgb(189, 21, 21);
+  }
+#headline{
+    font-size: 55px;
+    color: rgb(43, 43, 44);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#mainQuiz{
+    background-color: rgb(230, 230, 230);
+    font: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+    padding: 40px;
+    padding-top: 20px;
+}
