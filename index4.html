@@ -7,11 +7,19 @@
     <title>Quiz</title>
 </head>
 <body>
+    <div id="mainQuiz">
+        <h1 id="headline">Welcome to the Javascript Coding Quiz</h1>
     <button type="button" class="startbutton btn">Start Quiz</button>
     <div id = "questions" class="hide"></div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Question #1</h5>
+          <p class="Quiz"></p>
+    <button id="btn"> Save Score</button>
+    <div><p>Time Remaining: </p><p id="timer"></p></div>
     <div id="Question"> Question</div>
     <div id = "choices" class="grid"></div>
-    <div><p>Time Remaining: </p><p id="timer"></p></div>
         <button class="btn"> A </button>
         <button class="btn"> B </button>
         <button class="btn"> C </button>
@@ -21,7 +29,14 @@
         <button type="nextbutton" class="nextbutton btn hide">Next question</button>
     </div>
     <div class="container"></div>
+    </div>
+    
        
 </body>
+<script>
+    document.getElementById("btn").addEventListener("click",function(){
+        alert("Save Score");
+    });
+    </script>
 <script src="script3.js"></script>
 </html>
