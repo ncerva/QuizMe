@@ -47,19 +47,14 @@ function ShowQuestion (){
     //no for loop
 }
 
-//variables 
 let timer = 5;
 console.log(timerh2)
-// let score = 0;
-//generate the question
-//start quiz
-// 
 function startGame() {
     var t= setInterval(
         timerupdate, 1000
     )
     ShowQuestion()
-   // runtimer()
+
 }
 // i++ to show question again
 //check answer
@@ -76,15 +71,23 @@ var timerupdate = function(){
     timer--
     timerh2.textContent = timer
 }
+document.getElementById("timer").addEventListener("click", function(event){
+    event.preventDefault()
+    {once: true}
+  });
+
 //answer is correct
 
 //incorrect answer
 //if else statement, if answer is wrong, game over, else correct, continue 
+//if user clicks on correct answer, next question
+//else wrong answer, game over
 
 //score
 function init() {
     totalWins();
   }
+
 
 //game over -lose
 
